@@ -14,7 +14,7 @@ void draw() {
       bob = new Dice(x, y);
       bob.show();
       fill(250, 250, 250);
-      rect(250, 480, 45, 20);
+      rect(250, 480, 50, 20);
       sum = sum + bob.numDots;
       fill(0, 0, 0);
       text("Sum" + sum, 250, 500);
