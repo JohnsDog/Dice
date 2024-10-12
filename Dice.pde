@@ -1,6 +1,7 @@
 //int sum = 0;
 Dice bob;
 void setup() {
+  background(0);
   size(500, 500);
   noLoop();
 }
